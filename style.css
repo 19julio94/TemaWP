@@ -1,0 +1,193 @@
+/*
+Theme Name: ThemeProject
+Template Theme URI: https://www.google.es
+Author: Julio
+Description: Plantilla de clase
+Version: 1.0
+*/
+
+
+/* Pantallas de portatiles 15"*/
+
+@media screen and (max-device-width: 1366px){
+
+
+div #header{
+	max-width: 100%;
+	height: auto;
+	background-color: #CEF6F5;
+	padding: 6px;
+	
+	
+	
+}
+  
+
+div #logo{
+	
+	margin-bottom:20px; 
+	width: 400px;
+	height: 200px;
+	
+}
+
+
+div #git{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 40px;
+	margin-right:800px; 
+
+
+}
+
+/*div #documentacion{
+	width: 50px;
+	height: 50px;
+	float: right;
+	/*margin-top: 40px;
+	margin-right:650px; 
+
+}*/
+
+
+div .grow:hover
+{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+}
+
+/* Pantallas de portatiles resolucon 1080"*/
+
+@media screen and (max-device-width: 1980px){
+
+
+div #header{
+	max-width: 100%;
+	height: auto;
+	background-color: #5b5b5b; 
+	padding: 6px;
+	
+	
+	
+}
+  
+
+div #logo{
+	
+	
+	width: 500px;
+	height: 124px;
+	
+}
+
+
+
+
+
+
+#menu ul {
+	list-style-type: none;
+ 	background-color: #5b5b5b; 
+ 	
+}
+
+#menu li{
+   display: inline;
+   font-family: 'Secular One', sans-serif;
+   padding-right: 6px;
+   font-size: 20px;
+} 
+
+#menu-top ul {
+	width: 200px;
+	list-style-type: none;
+ 	background-color: #5b5b5b; 
+ 	position:absolute;
+ 	top:60px;
+ 	left:1550px;
+}
+
+#menu-top li{
+	
+   display: inline;
+   font-family: 'Secular One', sans-serif;
+   padding-right: 6px;
+   
+} 
+
+
+a {
+	text-decoration: none;
+	color:white;
+	
+}
+
+a:hover{
+color:#336699;
+} 
+
+#imagenportada {
+margin-top: 16px;
+margin-left: 360px;	
+width: 1200px;
+height: 400px;
+}
+
+#post{
+	color:white;
+	padding-left: 6px;
+	font-family: 'Secular One', sans-serif;
+	background-color: #5b5b5b; 
+	
+	
+	
+}
+
+	
+	
+
+#menuindex{
+	
+	font-family: 'Secular One', sans-serif;
+	background-color: #5b5b5b;
+	height:300px;
+	width:260px; 
+	top:255px;
+	position:absolute;
+	left:6px;
+	padding-top: 100px;
+	padding-left:20px; 
+	padding-right: 30px;
+	
+}
+
+
+#misidebar{
+	padding-left:60px;
+	margin-right:306px;
+	padding-right:11px;
+	height:400px;
+	width:200px; 
+	background-color: #5b5b5b;
+	top:255px;
+	position:absolute;
+	left:1626px;
+	font-family: 'Secular One', sans-serif;
+	
+}
+
+div .grow:hover
+{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+
+
+}
