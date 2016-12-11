@@ -8,7 +8,7 @@ Version: 1.0
 
 
 /* Pantallas de portatiles 15"*/
-
+/*
 @media screen and (max-device-width: 1366px){
 
 
@@ -49,7 +49,7 @@ div #git{
 	/*margin-top: 40px;
 	margin-right:650px; 
 
-}*/
+}
 
 
 div .grow:hover
@@ -60,7 +60,7 @@ transform: scale(1.3);
 }
 
 }
-
+*/
 /* Pantallas de portatiles resolucon 1080"*/
 
 @media screen and (max-device-width: 1980px){
@@ -69,7 +69,7 @@ transform: scale(1.3);
 div #header{
 	max-width: 100%;
 	height: auto;
-	background-color: #5b5b5b; 
+	background-color: #8A8A8A; 
 	padding: 6px;
 	
 	
@@ -92,21 +92,21 @@ div #logo{
 
 #menu ul {
 	list-style-type: none;
- 	background-color: #5b5b5b; 
+ 	background-color: #8A8A8A; 
  	
 }
 
 #menu li{
    display: inline;
    font-family: 'Secular One', sans-serif;
-   padding-right: 6px;
+   padding-right: 12px;
    font-size: 20px;
 } 
 
 #menu-top ul {
 	width: 200px;
 	list-style-type: none;
- 	background-color: #5b5b5b; 
+ 	background-color: #8A8A8A; 
  	position:absolute;
  	top:60px;
  	left:1550px;
@@ -128,7 +128,8 @@ a {
 }
 
 a:hover{
-color:#336699;
+color:#33FFFF;
+text-decoration: underline;
 } 
 
 #imagenportada {
@@ -140,10 +141,11 @@ height: 400px;
 
 #post{
 	color:white;
-	padding-left: 6px;
+	padding-left: 44px;
 	font-family: 'Secular One', sans-serif;
-	background-color: #5b5b5b; 
-	
+	background-color: #8A8A8A; 
+	width:auto;
+	height:auto;
 	
 	
 }
@@ -154,10 +156,10 @@ height: 400px;
 #menuindex{
 	
 	font-family: 'Secular One', sans-serif;
-	background-color: #5b5b5b;
+	background-color: #8A8A8A;
 	height:300px;
 	width:260px; 
-	top:255px;
+	top:256px;
 	position:absolute;
 	left:6px;
 	padding-top: 100px;
@@ -168,13 +170,14 @@ height: 400px;
 
 
 #misidebar{
+	
 	padding-left:60px;
 	margin-right:306px;
 	padding-right:11px;
 	height:400px;
 	width:200px; 
-	background-color: #5b5b5b;
-	top:255px;
+	background-color: #8A8A8A;
+	top:256px;
 	position:absolute;
 	left:1626px;
 	font-family: 'Secular One', sans-serif;
@@ -188,6 +191,18 @@ div .grow:hover
 transform: scale(1.3);
 }
 
+#manuales ul{
+	
+	background-color: #8A8A8A;
+	list-style-type: none;
+	font-family: 'Secular One', sans-serif;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+h3{
+	font-family: 'Secular One', sans-serif;
+	
+}
 
 
 }
